@@ -1,0 +1,30 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@mui/material": "^5.15.16",
+    "@raphiniert/ra-data-postgrest": "^2.1.0",
+    "@supabase/ssr": "latest",
+    "@supabase/supabase-js": "latest",
+    "next": "14.2.3",
+    "ra-data-simple-rest": "^4.16.16",
+    "react": "^18",
+    "react-admin": "^4.16.16",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "typescript": "^5"
+  }
+}
